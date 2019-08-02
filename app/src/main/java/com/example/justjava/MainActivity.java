@@ -25,19 +25,19 @@ public class MainActivity extends AppCompatActivity {
     public void submitOrder(View view) {
 
 
-        displayPrice(numberOfcoffees*5);
+        displayPrice(numberOfcoffees*50);
     }
 public void dda(View view){
         numberOfcoffees++;
 
      display(numberOfcoffees);
-    displayPrice(numberOfcoffees*5);
+    displayPrice(numberOfcoffees*50);
 
 }
     public void mdd(View view){
         numberOfcoffees--;
         display(numberOfcoffees);
-        displayPrice(numberOfcoffees*5);
+        displayPrice(numberOfcoffees*50);
     }
     /**
      * This method displays the given quantity value on the screen.
