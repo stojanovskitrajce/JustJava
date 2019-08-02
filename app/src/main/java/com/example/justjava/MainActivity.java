@@ -31,12 +31,13 @@ public void dda(View view){
         numberOfcoffees++;
 
      display(numberOfcoffees);
-
+    displayPrice(numberOfcoffees*5);
 
 }
     public void mdd(View view){
         numberOfcoffees--;
         display(numberOfcoffees);
+        displayPrice(numberOfcoffees*5);
     }
     /**
      * This method displays the given quantity value on the screen.
